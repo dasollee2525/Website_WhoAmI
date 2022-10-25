@@ -1,0 +1,31 @@
+* {
+  background-color: black;
+}
+.row {
+  position: relative;
+}
+
+.column {
+  column-width: 350px;
+  column-gap: 15px;
+  float: left;
+}
+
+.row .column div {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.8;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0,1);
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.row .column div h2 {
+  background-color: inherit;
+  font-size: 20px;
+  padding-left: 10px;
+}
